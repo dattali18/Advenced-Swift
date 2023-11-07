@@ -7,18 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C6438B0E2AFA829300805EE1 /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6438B0D2AFA829300805EE1 /* TabBarView.swift */; };
+		C6438B102AFA848200805EE1 /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6438B0F2AFA848200805EE1 /* SearchView.swift */; };
 		C6E503582AF9346100B1DC69 /* NetworkCallSwiftApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6E503572AF9346100B1DC69 /* NetworkCallSwiftApp.swift */; };
 		C6E5035A2AF9346100B1DC69 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6E503592AF9346100B1DC69 /* ContentView.swift */; };
 		C6E5035C2AF9346300B1DC69 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C6E5035B2AF9346300B1DC69 /* Assets.xcassets */; };
 		C6E5035F2AF9346300B1DC69 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C6E5035E2AF9346300B1DC69 /* Preview Assets.xcassets */; };
+		C6E503662AF934A700B1DC69 /* GitHubUserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6E503652AF934A700B1DC69 /* GitHubUserView.swift */; };
+		C6E503682AF934CB00B1DC69 /* GitHubUserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6E503672AF934CB00B1DC69 /* GitHubUserViewModel.swift */; };
+		C6E5036B2AF947E000B1DC69 /* GitHubRepoInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6E5036A2AF947E000B1DC69 /* GitHubRepoInfoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C6438B0D2AFA829300805EE1 /* TabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarView.swift; sourceTree = "<group>"; };
+		C6438B0F2AFA848200805EE1 /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
 		C6E503542AF9346100B1DC69 /* NetworkCallSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NetworkCallSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6E503572AF9346100B1DC69 /* NetworkCallSwiftApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkCallSwiftApp.swift; sourceTree = "<group>"; };
 		C6E503592AF9346100B1DC69 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		C6E5035B2AF9346300B1DC69 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C6E5035E2AF9346300B1DC69 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C6E503652AF934A700B1DC69 /* GitHubUserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitHubUserView.swift; sourceTree = "<group>"; };
+		C6E503672AF934CB00B1DC69 /* GitHubUserViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitHubUserViewModel.swift; sourceTree = "<group>"; };
+		C6E5036A2AF947E000B1DC69 /* GitHubRepoInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitHubRepoInfoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +63,7 @@
 			children = (
 				C6E503572AF9346100B1DC69 /* NetworkCallSwiftApp.swift */,
 				C6E503592AF9346100B1DC69 /* ContentView.swift */,
+				C6E503692AF934D700B1DC69 /* Views */,
 				C6E5035B2AF9346300B1DC69 /* Assets.xcassets */,
 				C6E5035D2AF9346300B1DC69 /* Preview Content */,
 			);
@@ -65,6 +76,18 @@
 				C6E5035E2AF9346300B1DC69 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C6E503692AF934D700B1DC69 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C6E503652AF934A700B1DC69 /* GitHubUserView.swift */,
+				C6E503672AF934CB00B1DC69 /* GitHubUserViewModel.swift */,
+				C6E5036A2AF947E000B1DC69 /* GitHubRepoInfoView.swift */,
+				C6438B0D2AFA829300805EE1 /* TabBarView.swift */,
+				C6438B0F2AFA848200805EE1 /* SearchView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +160,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C6E503662AF934A700B1DC69 /* GitHubUserView.swift in Sources */,
+				C6E5036B2AF947E000B1DC69 /* GitHubRepoInfoView.swift in Sources */,
 				C6E5035A2AF9346100B1DC69 /* ContentView.swift in Sources */,
+				C6438B102AFA848200805EE1 /* SearchView.swift in Sources */,
 				C6E503582AF9346100B1DC69 /* NetworkCallSwiftApp.swift in Sources */,
+				C6438B0E2AFA829300805EE1 /* TabBarView.swift in Sources */,
+				C6E503682AF934CB00B1DC69 /* GitHubUserViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,6 +308,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -309,6 +338,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
